@@ -1,0 +1,25 @@
+{
+  "name": "post-rating",
+  "version": "1.0.0",
+  "description": "Post Rating Mechanism with Express.js and MySql",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "faker": "^5.5.3",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "mysql-db-seed": "0.0.4"
+  }
+}
